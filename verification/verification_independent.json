@@ -1,0 +1,1340 @@
+{
+  "verifier": "Standard-library scalar integer FWHT, packed-output M\u00f6bius inversion and independent Krawtchouk moments",
+  "all_passed": true,
+  "total": 23,
+  "passed": 23,
+  "results": [
+    {
+      "file": "data/best_corrector_n3.txt",
+      "sha256": "a2015981ef257ed28757e714bbe33974bff7fe9d9f9f03ba0f15c2101f587d1b",
+      "actual": {
+        "c": 1,
+        "M": 4,
+        "NL": 2,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "expected": {
+        "c": 1,
+        "M": 4,
+        "NL": 2,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 1,
+          "M": 4,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            8,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n4.txt",
+      "sha256": "d34d0d81468c80864d46eb233f05c6e0fda4b8bb1e2cb6877058a9a345071cb8",
+      "actual": {
+        "c": 2,
+        "M": 8,
+        "NL": 4,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "expected": {
+        "c": 2,
+        "M": 8,
+        "NL": 4,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 2,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            16,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n5.txt",
+      "sha256": "16915b9a9f8b2b5155bf15978847783ec712e2d64209c535f191f3c711e4bd8d",
+      "actual": {
+        "c": 3,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "expected": {
+        "c": 3,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 3,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            32,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n6.txt",
+      "sha256": "7e944693104234a5f930a581ddb0f874447c3923961f17a1ae3e9a3b845b9cfe",
+      "actual": {
+        "c": 4,
+        "M": 12,
+        "NL": 26,
+        "res": 0,
+        "degree": 5,
+        "balanced": true
+      },
+      "expected": {
+        "c": 4,
+        "M": 12,
+        "NL": 26,
+        "res": 0,
+        "degree": 5,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 4,
+          "M": 12,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            64,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n7.txt",
+      "sha256": "84946aedfe8e41244a870cc6f9e3b8c290a21f91574facb50aee3778f2ed05d9",
+      "actual": {
+        "c": 5,
+        "M": 20,
+        "NL": 54,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "expected": {
+        "c": 5,
+        "M": 20,
+        "NL": 54,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 5,
+          "M": 20,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n8.txt",
+      "sha256": "55ae9eec9752f16eb26e279631e86cc45e195ad1f3a9c8e726c8af5fc461fa5b",
+      "actual": {
+        "c": 6,
+        "M": 32,
+        "NL": 112,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "expected": {
+        "c": 6,
+        "M": 32,
+        "NL": 112,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 6,
+          "M": 32,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            256,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n9.txt",
+      "sha256": "871657461b6479a5f1674deefa982f1dd87152a191f2a80c9dbd39499687bf52",
+      "actual": {
+        "c": 7,
+        "M": 60,
+        "NL": 226,
+        "res": 0,
+        "degree": 8,
+        "balanced": true
+      },
+      "expected": {
+        "c": 7,
+        "M": 60,
+        "NL": 226,
+        "res": 0,
+        "degree": 8,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 7,
+          "M": 60,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            512,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n10.txt",
+      "sha256": "0328c3d8454de4c08534f4ba1dea32a756f8e5fdd86d5c828e31fa0ab1f66585",
+      "actual": {
+        "c": 8,
+        "M": 104,
+        "NL": 460,
+        "res": 0,
+        "degree": 9,
+        "balanced": true
+      },
+      "expected": {
+        "c": 8,
+        "M": 104,
+        "NL": 460,
+        "res": 0,
+        "degree": 9,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 8,
+          "M": 104,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1024,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/rotation_quota_C10_n11.txt",
+      "sha256": "b8016f0187573b052abc7b5766269c19eace5b8eb6268ca3634439117f232fe0",
+      "actual": {
+        "c": 9,
+        "M": 188,
+        "NL": 930,
+        "res": 0,
+        "degree": 10,
+        "balanced": true
+      },
+      "expected": {
+        "c": 9,
+        "M": 188,
+        "NL": 930,
+        "res": 0,
+        "degree": 10,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 9,
+          "M": 188,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2048,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/rotation_quota_C11_n12.txt",
+      "sha256": "7862d4288a5ece341f4eb1ced480ad5cff1d756ec99c85ad3f231ebf778ad614",
+      "actual": {
+        "c": 10,
+        "M": 344,
+        "NL": 1876,
+        "res": 0,
+        "degree": 10,
+        "balanced": true
+      },
+      "expected": {
+        "c": 10,
+        "M": 344,
+        "NL": 1876,
+        "res": 0,
+        "degree": 10,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 10,
+          "M": 344,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4096,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/rotation_quota_C12_n13.txt",
+      "sha256": "7c3908bde47433fecdb34e37b97bf521cbaf2969f72b1d00a4f5aeba0f666ea1",
+      "actual": {
+        "c": 11,
+        "M": 632,
+        "NL": 3780,
+        "res": 0,
+        "degree": 11,
+        "balanced": true
+      },
+      "expected": {
+        "c": 11,
+        "M": 632,
+        "NL": 3780,
+        "res": 0,
+        "degree": 11,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 11,
+          "M": 632,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8192,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/layer_quota_local_n14.txt",
+      "sha256": "c84ac8d9619d9bdf601d14de75f10c34f6e883e4dc1d5604ddc7a8ab2c639543",
+      "actual": {
+        "c": 12,
+        "M": 1172,
+        "NL": 7606,
+        "res": 0,
+        "degree": 13,
+        "balanced": true
+      },
+      "expected": {
+        "c": 12,
+        "M": 1172,
+        "NL": 7606,
+        "res": 0,
+        "degree": 13,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 12,
+          "M": 1172,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16384,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/layer_quota_local_n15.txt",
+      "sha256": "9569d5cba196f45ff5bcb93336442d2097d0aca4b8227d25a54150fb979707cf",
+      "actual": {
+        "c": 13,
+        "M": 2188,
+        "NL": 15290,
+        "res": 0,
+        "degree": 14,
+        "balanced": true
+      },
+      "expected": {
+        "c": 13,
+        "M": 2188,
+        "NL": 15290,
+        "res": 0,
+        "degree": 14,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 13,
+          "M": 2188,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            32768,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/layer_quota_local_n16.txt",
+      "sha256": "f01129413d72dfdc134fb64575a0618ff3855de83e70b0e91d7e5831f55440a3",
+      "actual": {
+        "c": 14,
+        "M": 4096,
+        "NL": 30720,
+        "res": 0,
+        "degree": 14,
+        "balanced": true
+      },
+      "expected": {
+        "c": 14,
+        "M": 4096,
+        "NL": 30720,
+        "res": 0,
+        "degree": 14,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 14,
+          "M": 4096,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/corrector_n5_c2_bound_truth_table.txt",
+      "sha256": "8e44265a67ce2c0d4d52402ffea8981549edef91b639b81978cacd77ab09f7d0",
+      "actual": {
+        "c": 2,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "expected": {
+        "c": 2,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 2,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            32,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/corrector_n6_c3_bound_truth_table.txt",
+      "sha256": "c537372644e3c290763639bfee1a7f9c2e2fcf0ed55938511b938cd0a725750a",
+      "actual": {
+        "c": 3,
+        "M": 12,
+        "NL": 26,
+        "res": 0,
+        "degree": 5,
+        "balanced": true
+      },
+      "expected": {
+        "c": 3,
+        "M": 12,
+        "NL": 26,
+        "res": 0,
+        "degree": 5,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 3,
+          "M": 12,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            64,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/corrector_n7_c4_candidate_truth_table.txt",
+      "sha256": "0b327f0609edec190ef8e0294049697769e1484f6a07c05155b218c416f2206d",
+      "actual": {
+        "c": 4,
+        "M": 16,
+        "NL": 56,
+        "res": 0,
+        "degree": 4,
+        "balanced": true
+      },
+      "expected": {
+        "c": 4,
+        "M": 16,
+        "NL": 56,
+        "res": 0,
+        "degree": 4,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 4,
+          "M": 16,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/corrector_n8_c5_M24_truth_table.txt",
+      "sha256": "b00366f3dbb4bedd13f96b614a7aefde82c8ceb916b1311219de7ea345938449",
+      "actual": {
+        "c": 5,
+        "M": 24,
+        "NL": 116,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "expected": {
+        "c": 5,
+        "M": 24,
+        "NL": 116,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 5,
+          "M": 24,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            256,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/gold_vector_seed_n5_m2_c1_outputs.txt",
+      "sha256": "2cb397811f571673b4f530795dbee152ea0579aa8ce0374347a4710b45a6f773",
+      "actual": {
+        "c": 1,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "expected": {
+        "c": 1,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 2,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            32,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "2": {
+          "c": 1,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            16,
+            0,
+            16,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "3": {
+          "c": 1,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            -16,
+            32,
+            16,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": true,
+      "passed": true
+    },
+    {
+      "file": "data/gold_vector_seed_n7_m2_c2_outputs.txt",
+      "sha256": "c5a968e2ec08461f2d9c8ebd580f967e0a1b73d0fed417c6cfcaaa1c7b0adcbd",
+      "actual": {
+        "c": 2,
+        "M": 16,
+        "NL": 56,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "expected": {
+        "c": 2,
+        "M": 16,
+        "NL": 56,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 2,
+          "M": 16,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            64,
+            0,
+            64,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "2": {
+          "c": 3,
+          "M": 16,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            128,
+            0,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "3": {
+          "c": 2,
+          "M": 16,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            64,
+            0,
+            64,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": true,
+      "passed": true
+    },
+    {
+      "file": "data/welch_vector_seed_n5_m3_c1_outputs.txt",
+      "sha256": "46f68b447a8f5a0275ccd0b6de0ab88bf96173e024b7d1f08d6822323cef090e",
+      "actual": {
+        "c": 1,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "expected": {
+        "c": 1,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 1,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            24,
+            8,
+            8,
+            -8
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "2": {
+          "c": 1,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            8,
+            -8,
+            24,
+            8
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "3": {
+          "c": 1,
+          "M": 8,
+          "res": 1,
+          "layer_sums": [
+            0,
+            0,
+            32,
+            0,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "4": {
+          "c": 1,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            16,
+            0,
+            16,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "5": {
+          "c": 1,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            8,
+            8,
+            24,
+            -8
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "6": {
+          "c": 1,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            24,
+            -8,
+            8,
+            8
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "7": {
+          "c": 1,
+          "M": 8,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            16,
+            0,
+            16,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": true,
+      "passed": true
+    },
+    {
+      "file": "data/vector_corrector_n9_m3_c4_L40_M48_outputs.txt",
+      "sha256": "128502520325c0fca2e8bbaa9507b8013d45a3169ec0bc7a73e30a05a2c9b1d6",
+      "actual": {
+        "c": 4,
+        "M": 48,
+        "NL": 232,
+        "res": 0,
+        "degree": 7,
+        "balanced": true
+      },
+      "expected": {
+        "c": 4,
+        "M": 48,
+        "NL": 232,
+        "res": 0,
+        "degree": 7,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 4,
+          "M": 48,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1024,
+            0,
+            -512,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "2": {
+          "c": 5,
+          "M": 48,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            512,
+            0,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "3": {
+          "c": 4,
+          "M": 48,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -512,
+            0,
+            1024,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "4": {
+          "c": 5,
+          "M": 48,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            512,
+            0,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "5": {
+          "c": 4,
+          "M": 48,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1024,
+            0,
+            -512,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "6": {
+          "c": 5,
+          "M": 48,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            512,
+            0,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "7": {
+          "c": 4,
+          "M": 48,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1024,
+            0,
+            -512,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    },
+    {
+      "file": "data/vector_corrector_n18_m2_c13_M1728_outputs.bin",
+      "sha256": "cbbadb64bebc9ed9547eb04818815bd3f6ccf6ba9957dbc7baa94044ddd202fc",
+      "actual": {
+        "c": 13,
+        "M": 1728,
+        "NL": 130208,
+        "res": 0,
+        "degree": 17,
+        "balanced": true
+      },
+      "expected": {
+        "c": 13,
+        "M": 1728,
+        "NL": 130208,
+        "res": 0,
+        "degree": 17,
+        "balanced": true
+      },
+      "components": {
+        "1": {
+          "c": 13,
+          "M": 1728,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524288,
+            0,
+            -262144,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "2": {
+          "c": 13,
+          "M": 1728,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524288,
+            0,
+            -262144,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        },
+        "3": {
+          "c": 13,
+          "M": 1728,
+          "res": 0,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524288,
+            0,
+            -262144,
+            0,
+            0
+          ],
+          "balanced": true,
+          "checks_passed": true
+        }
+      },
+      "krawtchouk_crosscheck_passed": true,
+      "field_realization_passed": null,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,2887 @@
+{
+  "verifier": "Exact integer NumPy FWHT and Boolean M\u00f6bius inversion",
+  "all_passed": true,
+  "total": 23,
+  "passed": 23,
+  "results": [
+    {
+      "file": "data/best_corrector_n3.txt",
+      "n": 3,
+      "m": 1,
+      "sha256": "a2015981ef257ed28757e714bbe33974bff7fe9d9f9f03ba0f15c2101f587d1b",
+      "size_bytes": 9,
+      "expected": {
+        "c": 1,
+        "M": 4,
+        "NL": 2,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "actual": {
+        "c": 1,
+        "M": 4,
+        "NL": 2,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 1,
+          "M": 4,
+          "NL": 2,
+          "res": 0,
+          "degree": 2,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            8,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n4.txt",
+      "n": 4,
+      "m": 1,
+      "sha256": "d34d0d81468c80864d46eb233f05c6e0fda4b8bb1e2cb6877058a9a345071cb8",
+      "size_bytes": 17,
+      "expected": {
+        "c": 2,
+        "M": 8,
+        "NL": 4,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "actual": {
+        "c": 2,
+        "M": 8,
+        "NL": 4,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 2,
+          "M": 8,
+          "NL": 4,
+          "res": 0,
+          "degree": 2,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            16,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n5.txt",
+      "n": 5,
+      "m": 1,
+      "sha256": "16915b9a9f8b2b5155bf15978847783ec712e2d64209c535f191f3c711e4bd8d",
+      "size_bytes": 33,
+      "expected": {
+        "c": 3,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "actual": {
+        "c": 3,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 3,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            32,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n6.txt",
+      "n": 6,
+      "m": 1,
+      "sha256": "7e944693104234a5f930a581ddb0f874447c3923961f17a1ae3e9a3b845b9cfe",
+      "size_bytes": 65,
+      "expected": {
+        "c": 4,
+        "M": 12,
+        "NL": 26,
+        "res": 0,
+        "degree": 5,
+        "balanced": true
+      },
+      "actual": {
+        "c": 4,
+        "M": 12,
+        "NL": 26,
+        "res": 0,
+        "degree": 5,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 4,
+          "M": 12,
+          "NL": 26,
+          "res": 0,
+          "degree": 5,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            64,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n7.txt",
+      "n": 7,
+      "m": 1,
+      "sha256": "84946aedfe8e41244a870cc6f9e3b8c290a21f91574facb50aee3778f2ed05d9",
+      "size_bytes": 130,
+      "expected": {
+        "c": 5,
+        "M": 20,
+        "NL": 54,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "actual": {
+        "c": 5,
+        "M": 20,
+        "NL": 54,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 5,
+          "M": 20,
+          "NL": 54,
+          "res": 0,
+          "degree": 6,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n8.txt",
+      "n": 8,
+      "m": 1,
+      "sha256": "55ae9eec9752f16eb26e279631e86cc45e195ad1f3a9c8e726c8af5fc461fa5b",
+      "size_bytes": 260,
+      "expected": {
+        "c": 6,
+        "M": 32,
+        "NL": 112,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "actual": {
+        "c": 6,
+        "M": 32,
+        "NL": 112,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 6,
+          "M": 32,
+          "NL": 112,
+          "res": 0,
+          "degree": 6,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            256,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          21,
+          7
+        ],
+        [
+          21,
+          35
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          35,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n9.txt",
+      "n": 9,
+      "m": 1,
+      "sha256": "871657461b6479a5f1674deefa982f1dd87152a191f2a80c9dbd39499687bf52",
+      "size_bytes": 520,
+      "expected": {
+        "c": 7,
+        "M": 60,
+        "NL": 226,
+        "res": 0,
+        "degree": 8,
+        "balanced": true
+      },
+      "actual": {
+        "c": 7,
+        "M": 60,
+        "NL": 226,
+        "res": 0,
+        "degree": 8,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 7,
+          "M": 60,
+          "NL": 226,
+          "res": 0,
+          "degree": 8,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            512,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          28,
+          8
+        ],
+        [
+          28,
+          56
+        ],
+        [
+          70,
+          56
+        ],
+        [
+          70,
+          56
+        ],
+        [
+          28,
+          56
+        ],
+        [
+          28,
+          8
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/best_corrector_n10.txt",
+      "n": 10,
+      "m": 1,
+      "sha256": "0328c3d8454de4c08534f4ba1dea32a756f8e5fdd86d5c828e31fa0ab1f66585",
+      "size_bytes": 1040,
+      "expected": {
+        "c": 8,
+        "M": 104,
+        "NL": 460,
+        "res": 0,
+        "degree": 9,
+        "balanced": true
+      },
+      "actual": {
+        "c": 8,
+        "M": 104,
+        "NL": 460,
+        "res": 0,
+        "degree": 9,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 8,
+          "M": 104,
+          "NL": 460,
+          "res": 0,
+          "degree": 9,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1024,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          36,
+          9
+        ],
+        [
+          36,
+          84
+        ],
+        [
+          126,
+          84
+        ],
+        [
+          126,
+          126
+        ],
+        [
+          84,
+          126
+        ],
+        [
+          84,
+          36
+        ],
+        [
+          9,
+          36
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/rotation_quota_C10_n11.txt",
+      "n": 11,
+      "m": 1,
+      "sha256": "b8016f0187573b052abc7b5766269c19eace5b8eb6268ca3634439117f232fe0",
+      "size_bytes": 2080,
+      "expected": {
+        "c": 9,
+        "M": 188,
+        "NL": 930,
+        "res": 0,
+        "degree": 10,
+        "balanced": true
+      },
+      "actual": {
+        "c": 9,
+        "M": 188,
+        "NL": 930,
+        "res": 0,
+        "degree": 10,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 9,
+          "M": 188,
+          "NL": 930,
+          "res": 0,
+          "degree": 10,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2048,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          45,
+          10
+        ],
+        [
+          45,
+          120
+        ],
+        [
+          210,
+          120
+        ],
+        [
+          210,
+          252
+        ],
+        [
+          210,
+          252
+        ],
+        [
+          210,
+          120
+        ],
+        [
+          45,
+          120
+        ],
+        [
+          45,
+          10
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/rotation_quota_C11_n12.txt",
+      "n": 12,
+      "m": 1,
+      "sha256": "7862d4288a5ece341f4eb1ced480ad5cff1d756ec99c85ad3f231ebf778ad614",
+      "size_bytes": 4160,
+      "expected": {
+        "c": 10,
+        "M": 344,
+        "NL": 1876,
+        "res": 0,
+        "degree": 10,
+        "balanced": true
+      },
+      "actual": {
+        "c": 10,
+        "M": 344,
+        "NL": 1876,
+        "res": 0,
+        "degree": 10,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 10,
+          "M": 344,
+          "NL": 1876,
+          "res": 0,
+          "degree": 10,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4096,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          55,
+          11
+        ],
+        [
+          55,
+          165
+        ],
+        [
+          330,
+          165
+        ],
+        [
+          330,
+          462
+        ],
+        [
+          462,
+          462
+        ],
+        [
+          462,
+          330
+        ],
+        [
+          165,
+          330
+        ],
+        [
+          165,
+          55
+        ],
+        [
+          11,
+          55
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/rotation_quota_C12_n13.txt",
+      "n": 13,
+      "m": 1,
+      "sha256": "7c3908bde47433fecdb34e37b97bf521cbaf2969f72b1d00a4f5aeba0f666ea1",
+      "size_bytes": 8320,
+      "expected": {
+        "c": 11,
+        "M": 632,
+        "NL": 3780,
+        "res": 0,
+        "degree": 11,
+        "balanced": true
+      },
+      "actual": {
+        "c": 11,
+        "M": 632,
+        "NL": 3780,
+        "res": 0,
+        "degree": 11,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 11,
+          "M": 632,
+          "NL": 3780,
+          "res": 0,
+          "degree": 11,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8192,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          66,
+          12
+        ],
+        [
+          66,
+          220
+        ],
+        [
+          495,
+          220
+        ],
+        [
+          495,
+          792
+        ],
+        [
+          924,
+          792
+        ],
+        [
+          924,
+          792
+        ],
+        [
+          495,
+          792
+        ],
+        [
+          495,
+          220
+        ],
+        [
+          66,
+          220
+        ],
+        [
+          66,
+          12
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/layer_quota_local_n14.txt",
+      "n": 14,
+      "m": 1,
+      "sha256": "c84ac8d9619d9bdf601d14de75f10c34f6e883e4dc1d5604ddc7a8ab2c639543",
+      "size_bytes": 16640,
+      "expected": {
+        "c": 12,
+        "M": 1172,
+        "NL": 7606,
+        "res": 0,
+        "degree": 13,
+        "balanced": true
+      },
+      "actual": {
+        "c": 12,
+        "M": 1172,
+        "NL": 7606,
+        "res": 0,
+        "degree": 13,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 12,
+          "M": 1172,
+          "NL": 7606,
+          "res": 0,
+          "degree": 13,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16384,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          78,
+          13
+        ],
+        [
+          78,
+          286
+        ],
+        [
+          715,
+          286
+        ],
+        [
+          715,
+          1287
+        ],
+        [
+          1716,
+          1287
+        ],
+        [
+          1716,
+          1716
+        ],
+        [
+          1287,
+          1716
+        ],
+        [
+          1287,
+          715
+        ],
+        [
+          286,
+          715
+        ],
+        [
+          286,
+          78
+        ],
+        [
+          13,
+          78
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/layer_quota_local_n15.txt",
+      "n": 15,
+      "m": 1,
+      "sha256": "9569d5cba196f45ff5bcb93336442d2097d0aca4b8227d25a54150fb979707cf",
+      "size_bytes": 33280,
+      "expected": {
+        "c": 13,
+        "M": 2188,
+        "NL": 15290,
+        "res": 0,
+        "degree": 14,
+        "balanced": true
+      },
+      "actual": {
+        "c": 13,
+        "M": 2188,
+        "NL": 15290,
+        "res": 0,
+        "degree": 14,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 13,
+          "M": 2188,
+          "NL": 15290,
+          "res": 0,
+          "degree": 14,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            32768,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          91,
+          14
+        ],
+        [
+          91,
+          364
+        ],
+        [
+          1001,
+          364
+        ],
+        [
+          1001,
+          2002
+        ],
+        [
+          3003,
+          2002
+        ],
+        [
+          3003,
+          3432
+        ],
+        [
+          3003,
+          3432
+        ],
+        [
+          3003,
+          2002
+        ],
+        [
+          1001,
+          2002
+        ],
+        [
+          1001,
+          364
+        ],
+        [
+          91,
+          364
+        ],
+        [
+          91,
+          14
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/layer_quota_local_n16.txt",
+      "n": 16,
+      "m": 1,
+      "sha256": "f01129413d72dfdc134fb64575a0618ff3855de83e70b0e91d7e5831f55440a3",
+      "size_bytes": 66560,
+      "expected": {
+        "c": 14,
+        "M": 4096,
+        "NL": 30720,
+        "res": 0,
+        "degree": 14,
+        "balanced": true
+      },
+      "actual": {
+        "c": 14,
+        "M": 4096,
+        "NL": 30720,
+        "res": 0,
+        "degree": 14,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 14,
+          "M": 4096,
+          "NL": 30720,
+          "res": 0,
+          "degree": 14,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          105,
+          15
+        ],
+        [
+          105,
+          455
+        ],
+        [
+          1365,
+          455
+        ],
+        [
+          1365,
+          3003
+        ],
+        [
+          5005,
+          3003
+        ],
+        [
+          5005,
+          6435
+        ],
+        [
+          6435,
+          6435
+        ],
+        [
+          6435,
+          5005
+        ],
+        [
+          3003,
+          5005
+        ],
+        [
+          3003,
+          1365
+        ],
+        [
+          455,
+          1365
+        ],
+        [
+          455,
+          105
+        ],
+        [
+          15,
+          105
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/corrector_n5_c2_bound_truth_table.txt",
+      "n": 5,
+      "m": 1,
+      "sha256": "8e44265a67ce2c0d4d52402ffea8981549edef91b639b81978cacd77ab09f7d0",
+      "size_bytes": 33,
+      "expected": {
+        "c": 2,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "actual": {
+        "c": 2,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 2,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            32,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/corrector_n6_c3_bound_truth_table.txt",
+      "n": 6,
+      "m": 1,
+      "sha256": "c537372644e3c290763639bfee1a7f9c2e2fcf0ed55938511b938cd0a725750a",
+      "size_bytes": 65,
+      "expected": {
+        "c": 3,
+        "M": 12,
+        "NL": 26,
+        "res": 0,
+        "degree": 5,
+        "balanced": true
+      },
+      "actual": {
+        "c": 3,
+        "M": 12,
+        "NL": 26,
+        "res": 0,
+        "degree": 5,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 3,
+          "M": 12,
+          "NL": 26,
+          "res": 0,
+          "degree": 5,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            64,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/corrector_n7_c4_candidate_truth_table.txt",
+      "n": 7,
+      "m": 1,
+      "sha256": "0b327f0609edec190ef8e0294049697769e1484f6a07c05155b218c416f2206d",
+      "size_bytes": 130,
+      "expected": {
+        "c": 4,
+        "M": 16,
+        "NL": 56,
+        "res": 0,
+        "degree": 4,
+        "balanced": true
+      },
+      "actual": {
+        "c": 4,
+        "M": 16,
+        "NL": 56,
+        "res": 0,
+        "degree": 4,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 4,
+          "M": 16,
+          "NL": 56,
+          "res": 0,
+          "degree": 4,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/corrector_n8_c5_M24_truth_table.txt",
+      "n": 8,
+      "m": 1,
+      "sha256": "b00366f3dbb4bedd13f96b614a7aefde82c8ceb916b1311219de7ea345938449",
+      "size_bytes": 260,
+      "expected": {
+        "c": 5,
+        "M": 24,
+        "NL": 116,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "actual": {
+        "c": 5,
+        "M": 24,
+        "NL": 116,
+        "res": 0,
+        "degree": 6,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 5,
+          "M": 24,
+          "NL": 116,
+          "res": 0,
+          "degree": 6,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            256,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          30,
+          26
+        ],
+        [
+          30,
+          40
+        ],
+        [
+          30,
+          26
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/gold_vector_seed_n5_m2_c1_outputs.txt",
+      "n": 5,
+      "m": 2,
+      "sha256": "2cb397811f571673b4f530795dbee152ea0579aa8ce0374347a4710b45a6f773",
+      "size_bytes": 64,
+      "expected": {
+        "c": 1,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "actual": {
+        "c": 1,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 2,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 2,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            32,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "2": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 2,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            16,
+            0,
+            16,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "3": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 2,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            -16,
+            32,
+            16,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/gold_vector_seed_n7_m2_c2_outputs.txt",
+      "n": 7,
+      "m": 2,
+      "sha256": "c5a968e2ec08461f2d9c8ebd580f967e0a1b73d0fed417c6cfcaaa1c7b0adcbd",
+      "size_bytes": 256,
+      "expected": {
+        "c": 2,
+        "M": 16,
+        "NL": 56,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "actual": {
+        "c": 2,
+        "M": 16,
+        "NL": 56,
+        "res": 0,
+        "degree": 2,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 2,
+          "M": 16,
+          "NL": 56,
+          "res": 0,
+          "degree": 2,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            64,
+            0,
+            64,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "2": {
+          "c": 3,
+          "M": 16,
+          "NL": 56,
+          "res": 0,
+          "degree": 2,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            128,
+            0,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "3": {
+          "c": 2,
+          "M": 16,
+          "NL": 56,
+          "res": 0,
+          "degree": 2,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            64,
+            0,
+            64,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          2,
+          2
+        ],
+        [
+          4,
+          5,
+          6,
+          6
+        ],
+        [
+          10,
+          9,
+          8,
+          8
+        ],
+        [
+          9,
+          10,
+          8,
+          8
+        ],
+        [
+          5,
+          4,
+          6,
+          6
+        ],
+        [
+          2,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/welch_vector_seed_n5_m3_c1_outputs.txt",
+      "n": 5,
+      "m": 3,
+      "sha256": "46f68b447a8f5a0275ccd0b6de0ab88bf96173e024b7d1f08d6822323cef090e",
+      "size_bytes": 64,
+      "expected": {
+        "c": 1,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "actual": {
+        "c": 1,
+        "M": 8,
+        "NL": 12,
+        "res": 0,
+        "degree": 3,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            24,
+            8,
+            8,
+            -8
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "2": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            8,
+            -8,
+            24,
+            8
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "3": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 1,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            32,
+            0,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "4": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            16,
+            0,
+            16,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "5": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            8,
+            8,
+            24,
+            -8
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "6": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            24,
+            -8,
+            8,
+            8
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "7": {
+          "c": 1,
+          "M": 8,
+          "NL": 12,
+          "res": 0,
+          "degree": 3,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            16,
+            0,
+            16,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/vector_corrector_n9_m3_c4_L40_M48_outputs.txt",
+      "n": 9,
+      "m": 3,
+      "sha256": "128502520325c0fca2e8bbaa9507b8013d45a3169ec0bc7a73e30a05a2c9b1d6",
+      "size_bytes": 1024,
+      "expected": {
+        "c": 4,
+        "M": 48,
+        "NL": 232,
+        "res": 0,
+        "degree": 7,
+        "balanced": true
+      },
+      "actual": {
+        "c": 4,
+        "M": 48,
+        "NL": 232,
+        "res": 0,
+        "degree": 7,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 4,
+          "M": 48,
+          "NL": 232,
+          "res": 0,
+          "degree": 7,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1024,
+            0,
+            -512,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "2": {
+          "c": 5,
+          "M": 48,
+          "NL": 232,
+          "res": 0,
+          "degree": 7,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            512,
+            0,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "3": {
+          "c": 4,
+          "M": 48,
+          "NL": 232,
+          "res": 0,
+          "degree": 7,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -512,
+            0,
+            1024,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "4": {
+          "c": 5,
+          "M": 48,
+          "NL": 232,
+          "res": 0,
+          "degree": 7,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            512,
+            0,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "5": {
+          "c": 4,
+          "M": 48,
+          "NL": 232,
+          "res": 0,
+          "degree": 7,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1024,
+            0,
+            -512,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "6": {
+          "c": 5,
+          "M": 48,
+          "NL": 232,
+          "res": 0,
+          "degree": 7,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            512,
+            0,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "7": {
+          "c": 4,
+          "M": 48,
+          "NL": 232,
+          "res": 0,
+          "degree": 7,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1024,
+            0,
+            -512,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          3,
+          3,
+          0
+        ],
+        [
+          1,
+          8,
+          0,
+          9,
+          9,
+          0,
+          0,
+          9
+        ],
+        [
+          16,
+          11,
+          11,
+          8,
+          8,
+          11,
+          11,
+          8
+        ],
+        [
+          19,
+          8,
+          24,
+          9,
+          9,
+          24,
+          24,
+          9
+        ],
+        [
+          8,
+          19,
+          9,
+          24,
+          24,
+          9,
+          9,
+          24
+        ],
+        [
+          11,
+          16,
+          8,
+          11,
+          11,
+          8,
+          8,
+          11
+        ],
+        [
+          8,
+          1,
+          9,
+          0,
+          0,
+          9,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          3,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "file": "data/vector_corrector_n18_m2_c13_M1728_outputs.bin",
+      "n": 18,
+      "m": 2,
+      "sha256": "cbbadb64bebc9ed9547eb04818815bd3f6ccf6ba9957dbc7baa94044ddd202fc",
+      "size_bytes": 262144,
+      "expected": {
+        "c": 13,
+        "M": 1728,
+        "NL": 130208,
+        "res": 0,
+        "degree": 17,
+        "balanced": true
+      },
+      "actual": {
+        "c": 13,
+        "M": 1728,
+        "NL": 130208,
+        "res": 0,
+        "degree": 17,
+        "balanced": true
+      },
+      "parameter_checks": {
+        "c": true,
+        "M": true,
+        "NL": true,
+        "res": true,
+        "degree": true,
+        "balanced": true
+      },
+      "uniform_preimage_sizes": true,
+      "components": {
+        "1": {
+          "c": 13,
+          "M": 1728,
+          "NL": 130208,
+          "res": 0,
+          "degree": 17,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524288,
+            0,
+            -262144,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "2": {
+          "c": 13,
+          "M": 1728,
+          "NL": 130208,
+          "res": 0,
+          "degree": 16,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524288,
+            0,
+            -262144,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        },
+        "3": {
+          "c": 13,
+          "M": 1728,
+          "NL": 130208,
+          "res": 0,
+          "degree": 17,
+          "balanced": true,
+          "layer_sums": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524288,
+            0,
+            -262144,
+            0,
+            0
+          ],
+          "parseval_ok": true,
+          "inverse_transform_ok": true,
+          "four_divisibility_ok": true,
+          "required_layer_polynomial_ok": true
+        }
+      },
+      "preimage_layer_counts": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          6,
+          6
+        ],
+        [
+          33,
+          40,
+          40,
+          40
+        ],
+        [
+          336,
+          160,
+          160,
+          160
+        ],
+        [
+          204,
+          952,
+          952,
+          952
+        ],
+        [
+          3360,
+          1736,
+          1736,
+          1736
+        ],
+        [
+          3276,
+          5096,
+          5096,
+          5096
+        ],
+        [
+          8112,
+          7904,
+          7904,
+          7904
+        ],
+        [
+          12870,
+          10296,
+          10296,
+          10296
+        ],
+        [
+          9152,
+          13156,
+          13156,
+          13156
+        ],
+        [
+          12870,
+          10296,
+          10296,
+          10296
+        ],
+        [
+          8112,
+          7904,
+          7904,
+          7904
+        ],
+        [
+          3276,
+          5096,
+          5096,
+          5096
+        ],
+        [
+          3360,
+          1736,
+          1736,
+          1736
+        ],
+        [
+          204,
+          952,
+          952,
+          952
+        ],
+        [
+          336,
+          160,
+          160,
+          160
+        ],
+        [
+          33,
+          40,
+          40,
+          40
+        ],
+        [
+          0,
+          6,
+          6,
+          6
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "passed": true
+    }
+  ]
+}
