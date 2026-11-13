@@ -7,7 +7,7 @@ The Boolean and vectorial Boolean corrector examples of [Constructions of Boolea
 ``verify_structure_numpy.py`` and ``verify_structure.py`` are verifying Python files, where the first file requires NumPy.
 The verification results will be `/verification/verification_independent.json` and `/verification/verification_numpy.json`, respectively.
 
-| Content in /data | File or file prefix |
+| Content | File or file prefix in /data |
 | --- | --- |
 | $(n-2)$-correctors ($3\le n \le 10$) | `best_corrector_n*.txt` |
 | $(n-2)$-correctors ($n=11,12,13$) | `rotation_quota_C10_n11.txt`, `rotation_quota_C11_n12.txt`, `rotation_quota_C12_n13.txt` |
