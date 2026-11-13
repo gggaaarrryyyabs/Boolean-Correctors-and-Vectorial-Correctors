@@ -7,6 +7,17 @@ The Boolean and vectorial Boolean corrector examples of [Constructions of Boolea
 ``verify_structure_numpy.py`` and ``verify_structure.py`` are verifying Python files, where the first file requires NumPy.
 The verification results will be `/verification/verification_independent.json` and `/verification/verification_numpy.json`, respectively.
 
+| Content in /data | File or file prefix |
+| --- | --- |
+| $(n-2)$-correctors ($3\le n \le 10$) | `best_corrector_n*.txt` |
+| $(n-2)$-correctors ($n=11,12,13$) | `rotation_quota_C10_n11.txt`, `rotation_quota_C11_n12.txt`, `rotation_quota_C12_n13.txt` |
+| $(n-2)$-correctors ($n=14,15,16$) | `layer_quota_local_n14.txt`, `layer_quota_local_n15.txt`, `layer_quota_local_n16.txt` |
+| $(n-3)$-correctors ($n=5,\dots,8$) | `corrector_n5_c2_bound_truth_table.txt`, `corrector_n6_c3_bound_truth_table.txt`, `corrector_n7_c4_candidate_truth_table.txt`, `corrector_n8_c5_M24_truth_table.txt` |
+| Gold vectorial correctors | `gold_vector_seed_n5_m2_c1_outputs.txt`, `gold_vector_seed_n7_m2_c2_outputs.txt` |
+| Welch $(5,3,1)$-correctors | `welch_vector_seed_n5_m3_c1_outputs.txt` |
+| $(9,3,4)$-correctors | `vector_corrector_n9_m3_c4_L40_M48_outputs.txt` |
+| $(18,2,13)$-correctors | `vector_corrector_n18_m2_c13_M1728_outputs.bin` |
+
 ## Encoding
 
 Inputs occur in increasing integer order $x=\sum_i x_i 2^i$, thus $x_0$ is the least-significant input bit. 
