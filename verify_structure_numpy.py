@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Full exact NumPy audit of every truth-table certificate.
-Usage: python verify_revision_structure.py [--root DIR] [--report FILE]
+Usage: python verify_structure_numpy.py [--root DIR] [--report FILE]
 Requires Python 3.10+ and NumPy. Does not trust search logs or stored spectra.
 """
 from __future__ import annotations
